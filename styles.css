@@ -1,3 +1,25 @@
 body {
-  background: hotpink;
+  color: #de1515;
+  text-align: left;
+  font-family: "Roboto Mono", "Trebuchet MS", "Lucida Sans Unicode",
+    "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+  letter-spacing: -0.12px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+.Alerte {
+  border-radius: 5px;
+  background: #ffe4e4;
+
+  display: inline-flex;
+  padding: 10px 16px;
+  align-items: flex-start;
+  gap: 12px;
 }
